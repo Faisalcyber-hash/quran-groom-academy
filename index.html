@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quran Groom Academy</title>
+
+<meta name="description" content="Learn Quran Online with Expert Male & Female Tutors. One-on-One Classes for Kids and Adults.">
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav>
+<div class="logo">
+📖 Quran Groom Academy
+</div>
+
+<ul>
+<li><a href="#courses">Courses</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#register">Register</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Learn the Holy Quran Online with Expert Tutors</h1>
+
+<p>
+One-on-One Quran Classes for Kids, Sisters and Brothers Worldwide.
+Flexible Timings. Male & Female Teachers.
+</p>
+
+<div class="buttons">
+
+<a href="#" id="registerBtn" class="primary-btn">
+Start Free Trial
+</a>
+
+<a href="#" id="whatsappBtn" class="secondary-btn">
+WhatsApp Us
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>Why Choose Quran Groom Academy?</h2>
+
+<div class="features">
+
+<div class="card">
+<h3>Certified Tutors</h3>
+<p>Qualified Male & Female Quran Teachers.</p>
+</div>
+
+<div class="card">
+<h3>Flexible Schedule</h3>
+<p>Choose your own class timings.</p>
+</div>
+
+<div class="card">
+<h3>One-on-One Classes</h3>
+<p>Personalized learning experience.</p>
+</div>
+
+<div class="card">
+<h3>Worldwide Students</h3>
+<p>Available in all countries.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="courses">
+
+<h2>Our Courses</h2>
+
+<div class="features">
+
+<div class="card">
+<h3>Noorani Qaida</h3>
+</div>
+
+<div class="card">
+<h3>Quran Reading</h3>
+</div>
+
+<div class="card">
+<h3>Tajweed</h3>
+</div>
+
+<div class="card">
+<h3>Hifz-ul-Quran</h3>
+</div>
+
+<div class="card">
+<h3>Islamic Studies</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<div class="stat">
+<h2>500+</h2>
+<p>Students</p>
+</div>
+
+<div class="stat">
+<h2>20+</h2>
+<p>Tutors</p>
+</div>
+
+<div class="stat">
+<h2>15+</h2>
+<p>Countries</p>
+</div>
+
+<div class="stat">
+<h2>100%</h2>
+<p>Satisfaction</p>
+</div>
+
+</section>
+
+<section id="register">
+
+<h2>Book Your Free Trial Class</h2>
+
+<p>
+Click below and fill the registration form.
+</p>
+
+<a href="#" id="googleFormBtn" class="primary-btn">
+Register Now
+</a>
+
+</section>
+
+<footer>
+
+<h3>Quran Groom Academy</h3>
+
+<p>
+Guiding Hearts Through the Light of the Quran
+</p>
+
+<p id="academyEmail"></p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8fafc;
+color:#222;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#0B6E4F;
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.logo{
+font-size:22px;
+font-weight:700;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(
+135deg,
+#0B6E4F,
+#0f8f66
+);
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.buttons{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.primary-btn,
+.secondary-btn{
+padding:14px 28px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+}
+
+.primary-btn{
+background:#D4AF37;
+color:black;
+}
+
+.secondary-btn{
+background:white;
+color:#0B6E4F;
+}
+
+section{
+padding:80px 10%;
+text-align:center;
+}
+
+section h2{
+margin-bottom:40px;
+font-size:36px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.stats{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+background:#0B6E4F;
+color:white;
+}
+
+.stat h2{
+font-size:45px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:32px;
+}
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+}
+const CONFIG = {
+
+academyName: "Quran Groom Academy",
+
+tagline:
+"Guiding Hearts Through the Light of the Quran",
+
+whatsappNumber:
+"971501234567",
+
+email:
+"info@qurangroomacademy.com",
+
+googleFormLink:
+"https://forms.google.com/YOUR_FORM_LINK"
+
+};
+
+document.getElementById("whatsappBtn").href =
+`https://wa.me/${CONFIG.whatsappNumber}?text=Assalamu Alaikum, I want to join Quran Groom Academy`;
+
+document.getElementById("googleFormBtn").href =
+CONFIG.googleFormLink;
+
+document.getElementById("registerBtn").href =
+CONFIG.googleFormLink;
+
+document.getElementById("academyEmail").innerText =
+CONFIG.email;
