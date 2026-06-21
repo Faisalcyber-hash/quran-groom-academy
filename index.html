@@ -13,11 +13,26 @@ body{
     text-align:center;
 }
 
-/* NAV */
+/* NAV BAR (UPDATED WITH LOGO) */
 nav{
     background:#0B6E4F;
-    padding:15px;
+    padding:10px 15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
     color:#fff;
+}
+
+/* LOGO */
+nav img{
+    width:45px;
+    height:45px;
+    object-fit:contain;
+}
+
+/* TITLE */
+nav span{
     font-size:24px;
     font-weight:bold;
 }
@@ -75,7 +90,7 @@ footer{
 }
 
 /* ========================= */
-/* WATERMARK LOGO (MAIN PART) */
+/* WATERMARK LOGO */
 /* ========================= */
 body::before {
     content: "";
@@ -101,7 +116,11 @@ nav, .hero, section, footer {
 
 <body>
 
-<nav>📖 Quran Groom Academy</nav>
+<!-- NAV WITH LOGO + NAME -->
+<nav>
+    <img src="https://i.postimg.cc/0yzm464R/b6f0d13e-0370-468d-b34a-825e5018b2c5.png" alt="Logo">
+    <span>Quran Groom Academy</span>
+</nav>
 
 <div class="hero">
 <h1>Learn Quran Online</h1>
